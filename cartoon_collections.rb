@@ -6,7 +6,6 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map { |element| element.capitalize + "!"}
-  end
 end
 
 def long_planeteer_calls(planeteer_calls)
